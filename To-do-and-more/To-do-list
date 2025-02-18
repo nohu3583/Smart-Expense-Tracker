@@ -24,9 +24,9 @@ Who does what:
 * Latex and presentation (4) - Everyone
 
 Need to add which modules to use in the project, for following points:
-* Data visualization
-* csv import/export 
-* Alert and notification system (2 day)
+* Data visualization - module for presentation of data eg charts. 
+* csv import/export - module for getting data from csv
+* Alert and notification system (2 day) 
 
 List of modules that need to be imported and how to use them:
 * Jest (for testing)
