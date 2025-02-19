@@ -1,8 +1,8 @@
 A to do list for the project and aslo planing for project:
 
-* Defining our project scope (1 day)
-* Set up initial project structure (1 day)
-* Data base setup and user login (3 day)
+* Defining our project scope (1 day) - Done 
+* Set up initial project structure (1 day) - Done
+* Data base setup and user login (3 day) - Database almost done.
 * Expense categories and logging (3 day)
 * Data visualization (2 day)
 * Alert and notification system (2 day)
@@ -15,8 +15,8 @@ If we have more time than estimated remaining we will add multi user support.
 Who does what:
 * Defining our project scope - Everyone
 * Set up initial project structure - Everone
-* Data base setup and user login - Noah
-* Expense categories and logging - Oskar/Iliya 
+* Data base setup- Noah
+* Expense categories and user login & logging - Oskar/Iliya 
 * Data visualization (2 day) - Oskar/Iliya
 * Alert and notification system (2 day) - Oskar/Iliya
 * csv import/export (2) - Noah

@@ -22,6 +22,9 @@ import "reflect-metadata";
         if (this.currency_name === null) {
             throw new Error ("This field should not be empty");
         }
-        if (this.currency_code)
-        
+        if (this.currency_code.length !== 3) {
+            throw new Error ("Currency code should always be 3 charachter")
+        }
+        if (this.updated_date )
+    }
 }

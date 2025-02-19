@@ -1,7 +1,7 @@
 import "reflect-metadata";
 import { DataSource } from "typeorm";
-import { Expense } from "./entities/Expense";
-import { Currency } from "./entities/Currency";
+import { Expense } from "../entities/Expense";
+import { Currency } from "../entities/Currency";
 
 export const AppDataSource = new DataSource({
     type: "sqlite",
