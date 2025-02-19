@@ -25,6 +25,8 @@ import "reflect-metadata";
         if (this.currency_code.length !== 3) {
             throw new Error ("Currency code should always be 3 charachter")
         }
-        if (this.updated_date )
+        if (this.updated_date >= new Date()) {
+            throw new Error ("Date should not be in the past")
+        }
     }
 }
