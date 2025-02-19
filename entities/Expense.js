@@ -225,7 +225,7 @@ var Expense = function () {
     __setFunctionName(_classThis, "Expense");
     (function () {
         var _metadata = typeof Symbol === "function" && Symbol.metadata ? Object.create(null) : void 0;
-        _id_decorators = [(0, typeorm_1.PrimaryGeneratedColumn)("uuid", { name: "expense_id" })];
+        _id_decorators = [(0, typeorm_1.PrimaryGeneratedColumn)()];
         _bankAccountName_decorators = [(0, typeorm_1.Column)({ name: "bank_account_name", type: "string", length: 100 })];
         _bankAccountId_decorators = [(0, typeorm_1.Column)({ name: "bank_account_id", type: "string", length: 15 })];
         _amount_decorators = [(0, typeorm_1.Column)({ name: "amount", type: "number" })];

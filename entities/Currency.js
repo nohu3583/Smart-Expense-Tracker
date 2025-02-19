@@ -127,7 +127,7 @@ var Currency = function () {
     __setFunctionName(_classThis, "Currency");
     (function () {
         var _metadata = typeof Symbol === "function" && Symbol.metadata ? Object.create(null) : void 0;
-        _id_decorators = [(0, typeorm_1.PrimaryGeneratedColumn)("uuid", { name: "Currency table key" })];
+        _id_decorators = [(0, typeorm_1.PrimaryGeneratedColumn)()];
         _currency_name_decorators = [(0, typeorm_1.Column)({ name: "Currency name", type: "string" })];
         _currency_code_decorators = [(0, typeorm_1.Column)({ name: "Currency code", type: "string", length: 3, default: "sek" })];
         _updated_date_decorators = [(0, typeorm_1.Column)({ name: "Last updated", type: "date" })];

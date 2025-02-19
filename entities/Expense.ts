@@ -3,7 +3,7 @@ import "reflect-metadata";
 
 @Entity("expenses")
 export class Expense {
-    @PrimaryGeneratedColumn("uuid", {name : "expense_id"})
+    @PrimaryGeneratedColumn()
     id!: string;
 
     @Column({ name : "bank_account_name", type : "string", length : 100 })

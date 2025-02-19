@@ -3,7 +3,7 @@ import "reflect-metadata";
 
 @Entity("Currency table") 
     export class Currency{
-    @PrimaryGeneratedColumn("uuid", {name : "Currency table key"})
+    @PrimaryGeneratedColumn()
     id! : string;
 
     @Column({name : "Currency name", type : "string" })

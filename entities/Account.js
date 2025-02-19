@@ -150,7 +150,7 @@ var Account = function () {
     __setFunctionName(_classThis, "Account");
     (function () {
         var _metadata = typeof Symbol === "function" && Symbol.metadata ? Object.create(null) : void 0;
-        _id_decorators = [(0, typeorm_1.PrimaryGeneratedColumn)("uuid")];
+        _id_decorators = [(0, typeorm_1.PrimaryGeneratedColumn)()];
         _account_owner_decorators = [(0, typeorm_1.Column)({ name: "account_owner", type: "varchar", length: 13 })];
         _account_name_decorators = [(0, typeorm_1.Column)({ name: "account_name", type: "varchar", length: 100 })];
         _account_type_decorators = [(0, typeorm_1.Column)({ name: "account_type", type: "varchar", length: 50 })];
