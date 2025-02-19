@@ -1,0 +1,27 @@
+import { Entity, Column, PrimaryGeneratedColumn } from "typeorm";
+import "reflect-metadata";
+
+@Entity("Currency table") 
+    export class Currency{
+    @PrimaryGeneratedColumn("uuid", {name : "Currency table key"})
+    id! : string;
+
+    @Column({name : "Currency name", type : "string" })
+    currency_name! : string;
+
+    @Column({name : "Currency code", type : "string", length : 3, default : "sek"})
+    currency_code! : string
+    
+    @Column({name : "Last updated", type : "date"})
+    updated_date! : Date;
+
+    @Column({name : "Currency exchange (relative to sek)", type: "float", default : 1})
+    exchange! : Float32Array;
+
+    async validate(): Promise<void> {
+        if (this.currency_name === null) {
+            throw new Error ("This field should not be empty");
+        }
+        if (this.currency_code)
+        
+}
